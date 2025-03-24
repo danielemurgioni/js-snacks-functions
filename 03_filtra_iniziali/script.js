@@ -18,6 +18,6 @@ function arrayWordCapitalLetter(arr){
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+console.log(arrayWordCapitalLetter(names));
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
