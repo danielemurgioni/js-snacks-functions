@@ -11,6 +11,7 @@ function helloYou(name){
 
 // Invoca la funzione qui e stampa il risultato in console
 
+console.log(helloYou(userName));
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
