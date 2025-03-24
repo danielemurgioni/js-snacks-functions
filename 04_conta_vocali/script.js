@@ -14,8 +14,20 @@ function numberOfVocalsInWord(string){
     return count;
 }
 
+const numberOfVocalsArrow=(string)=>{
+    let count = 0;
+    for(let i=0; i<string.length; i++){
+        if(string[i] === "a" || string[i] === "e" || string[i] === "i" || string[i] === "o" || string[i] === "u"){
+            count++;
+        }
+    }
+    return count;
+}
+
 // Invoca la funzione qui e stampa il risultato in console
 
 console.log(numberOfVocalsInWord(word));
+
+console.log(numberOfVocalsArrow(word));
 
 //Risultato atteso se si passa 'javascript': 3 (a, a, i)
