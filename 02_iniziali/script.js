@@ -5,6 +5,14 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 
+function arrayCapitalLetters(arr){
+    let newArray = []
+    for(let i=0; i<arr.length; i++){
+        newArray.push(arr[i].charAt(0));
+    }
+
+    return newArray;
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
