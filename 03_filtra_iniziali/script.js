@@ -16,8 +16,21 @@ function arrayWordCapitalLetter(arr){
     return newArray;
 }
 
+const arrayWordCapitalArrow=(arr)=> {
+    let newArray = []
+    for(let i=0; i<arr.length; i++){
+        if(arr[i].charAt(0) === "A"){
+            newArray.push(arr[i])
+        }
+    }
+
+    return newArray;
+}
+
 // Invoca la funzione qui e stampa il risultato in console
 
 console.log(arrayWordCapitalLetter(names));
+
+console.log(arrayWordCapitalArrow(names));
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
