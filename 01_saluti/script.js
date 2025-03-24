@@ -9,9 +9,12 @@ function helloYou(name){
     return "ciao " + name
 }
 
+const helloArrow = (name) => "ciao " + name
+
 // Invoca la funzione qui e stampa il risultato in console
 
 console.log(helloYou(userName));
 
+console.log(helloArrow(userName));
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
