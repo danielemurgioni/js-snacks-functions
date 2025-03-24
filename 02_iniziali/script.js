@@ -14,8 +14,19 @@ function arrayCapitalLetters(arr){
     return newArray;
 }
 
+const arrayCapitalArrow = (arr) => {
+    let newArray = []
+    for(let i=0; i<arr.length; i++){
+        newArray.push(arr[i].charAt(0));
+    }
+
+    return newArray;
+}
+
 // Invoca la funzione qui e stampa il risultato in console
 
 console.log(arrayCapitalLetters(names));
+
+console.log(arrayCapitalArrow(names));
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
